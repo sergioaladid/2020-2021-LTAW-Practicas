@@ -24,16 +24,16 @@
     *Sirve para indicar al ficehro dónde está la deficinión de lenguaje que vamos a utilizar.*
 
 **b) Si se omitiese esta línea, ¿Qué piensas que ocurriría?**  
-    *El documento no contaría con un lenguaje de marcado y solo mostraría texto.*
+    *No sabríamos de que tipo de documento se trata y daría un error. *
 
 **c) Sin conocer el contenido del fichero urjc_ml.dtd, ¿el documento es sintácticamente correcto?**  
-    *Sin conocer el contenido podemos asumir que es correcto. Tiene aperturas y cierres en todos los campos y el DOCTYPE es correcto.*
+    *Sin conocer el contenido no podemos asumir que es correcto. *
 
 **d) ¿Qué hace la tercera línea?**  
 *La tercera línea es un comentario, no afectaría al código.*
 
 **e) ¿Cuantas etiquetas de apertura hay? ¿Cuantas de cierre?**  
-*Hay 6 etiquetas de apertura y 6 de cierre.*
+*Hay 9 etiquetas de apertura y 9 de cierre.*
 
 **f) Dibuja el diagrama de contenedores de este documento**  
 ![](Diagrama-contenedores.png)  
