@@ -1,13 +1,13 @@
 const http = require('http');
 const fs = require('fs');
-
-//-- Definir el puerto a utilizar
 const PUERTO = 9000;
 
 //-- Crear el servidor
 const server = http.createServer((req, res) => {
-    
-    fs.readFile('./main.html', null, function (error, data) {
+
+    const myURL = new url(req);
+
+    fs.readFile(myURL, null, function (error, data) {
         if (error) {
             res.writeHead(404);
             res.write('Whoops! File not found!');
